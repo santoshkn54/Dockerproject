@@ -19,7 +19,7 @@ services:
       - "15672:15672"
     environment:
       - RABBITMQ_DEFAULT_USER=guest
-      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
   vproapp:
     image: mukeshkn/vprofileapp:V1
     ports:
